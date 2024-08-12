@@ -1,0 +1,588 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 6320
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 20 Tf
+23. TL
+0 g
+153.4377952755905312 813.5435433070865656 Td
+(TeVi Citas - Código del Proyecto) Tj
+ET
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+42.5196850393700814 756.8506299212598378 Td
+(HTML:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 728.5041732283464171 Td
+(<html w-tid="0"><head w-tid="1"><style>html{min-height:100%}.ctxmenu{position:fixed;border:1px solid) Tj
+T* (#999;padding:2px 0;box-shadow:#aaa 3px 3px) Tj
+T* (3px;background:#fff;margin:0;z-index:9999;overflow-y:auto;font:15px Verdana,) Tj
+T* (sans-serif;box-sizing:border-box}.ctxmenu li{margin:1px 0;display:block;position:relative;user-select:none}.ctxmenu) Tj
+T* (li.heading{font-weight:bold;margin-left:-5px}.ctxmenu li span{display:block;padding:2px) Tj
+T* (20px;cursor:default}.ctxmenu li a{color:inherit;text-decoration:none}.ctxmenu li.icon{padding-left:15px}.ctxmenu) Tj
+T* (img.icon{position:absolute;width:18px;left:10px;top:2px}.ctxmenu li.disabled{color:#ccc}.ctxmenu) Tj
+T* (li.divider{border-bottom:1px solid #aaa;margin:5px 0}.ctxmenu li.interactive:hover{background:rgba\(0, 0, 0,) Tj
+T* (.1\)}.ctxmenu li.submenu::after{content:"";position:absolute;display:block;top:0;bottom:0;right:.4em;margin:auto) Tj
+T* (.1rem auto auto;border-right:1px solid #000;border-top:1px solid) Tj
+T* (#000;transform:rotate\(45deg\);width:.3rem;height:.3rem}.ctxmenu) Tj
+T* (li.submenu.disabled::after{border-color:#ccc}</style><base href="" simulated-href="https://tevi-citas.com/") Tj
+T* (w-tid="2">) Tj
+T* (<link rel="stylesheet" href="/fonts.css?v=87e839673e010f6bbedb93fa528ca25e9f9aa7b5">) Tj
+T* (<link rel="stylesheet" href="/ctxmenu.css?v=87e839673e010f6bbedb93fa528ca25e9f9aa7b5">) Tj
+T* () Tj
+T* () Tj
+T* () Tj
+T* (<meta charset="UTF-8" w-tid="3">) Tj
+T* (<meta name="viewport" content="width=device-width, initial-scale=1.0" w-tid="4">) Tj
+T* (<title w-tid="5">TeVi Citas - Descargar Archivos PDF</title>) Tj
+T* (<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" w-tid="6"></script>) Tj
+T* (<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" w-tid="7"></script>) Tj
+T* (<style w-tid="8">) Tj
+T* (  body {) Tj
+T* (    font-family: Arial, sans-serif;) Tj
+T* (    line-height: 1.6;) Tj
+T* (    color: #333;) Tj
+T* (    max-width: 800px;) Tj
+T* (    margin: 0 auto;) Tj
+T* (    padding: 20px;) Tj
+T* (    background-color: #f4f4f4;) Tj
+T* (  }) Tj
+T* (  h1 {) Tj
+T* (    color: #2c3e50;) Tj
+T* (    text-align: center;) Tj
+T* (  }) Tj
+T* (  .download-section {) Tj
+T* (    background-color: #fff;) Tj
+T* (    border-radius: 8px;) Tj
+T* (    padding: 20px;) Tj
+T* (    margin-top: 20px;) Tj
+T* (    box-shadow: 0 2px 4px rgba\(0,0,0,0.1\);) Tj
+T* (  }) Tj
+T* (  button {) Tj
+T* (    background-color: #3498db;) Tj
+T* (    color: #fff;) Tj
+T* (    border: none;) Tj
+T* (    padding: 10px 20px;) Tj
+T* (    font-size: 16px;) Tj
+T* (    border-radius: 4px;) Tj
+T* (    cursor: pointer;) Tj
+T* (    transition: background-color 0.3s;) Tj
+T* (  }) Tj
+T* (  button:hover {) Tj
+T* (    background-color: #2980b9;) Tj
+T* (  }) Tj
+T* (  #status {) Tj
+T* (    margin-top: 20px;) Tj
+T* (    font-style: italic;) Tj
+T* (  }) Tj
+T* (</style>) Tj
+T* (</head>) Tj
+T* (<body w-tid="9">) Tj
+T* (  <h1 w-tid="10">TeVi Citas - Descargar Archivos del Proyecto</h1>) Tj
+T* (  ) Tj
+T* (  <div class="download-section" w-tid="11">) Tj
+T* (    <p w-tid="12">Haga clic en el botón de abajo para generar y descargar un archivo PDF que contiene el código) Tj
+T* (HTML, CSS y JavaScript del proyecto TeVi Citas.</p>) Tj
+T* (    <button onclick="generatePDF\(\)" w-tid="13">Descargar Archivos del Proyecto \(PDF\)</button>) Tj
+T* (    <div id="status" w-tid="14">Generando PDF...</div>) Tj
+T* (  </div>) Tj
+T* () Tj
+T* (  <script w-tid="15">) Tj
+T* (    window.jsPDF = window.jspdf.jsPDF;) Tj
+T* () Tj
+T* (    function generatePDF\(\) {) Tj
+T* (      const status = document.getElementById\('status'\);) Tj
+T* (      status.textContent = "Generando PDF...";) Tj
+T* () Tj
+T* (      const doc = new jsPDF\(\);) Tj
+T* (      let yOffset = 10;) Tj
+T* () Tj
+T* (      // Agregar título) Tj
+T* (      doc.setFontSize\(20\);) Tj
+T* (      doc.text\("TeVi Citas - Código del Proyecto", 105, yOffset, null, null, 'center'\);) Tj
+T* (      yOffset += 10;) Tj
+T* () Tj
+T* (      // Función para agregar texto con salto de línea automático) Tj
+T* (      function addWrappedText\(text, y\) {) Tj
+T* (        const textLines = doc.splitTextToSize\(text, 180\);) Tj
+T* (        doc.text\(textLines, 15, y\);) Tj
+T* (        return y + \(textLines.length * 5\);) Tj
+T* (      }) Tj
+T* () Tj
+T* (      // Agregar HTML) Tj
+T* (      doc.setFontSize\(16\);) Tj
+T* (      yOffset = addWrappedText\("HTML:", yOffset + 10\);) Tj
+T* (      doc.setFontSize\(10\);) Tj
+T* (      yOffset = addWrappedText\(document.documentElement.outerHTML, yOffset + 5\);) Tj
+T* () Tj
+T* (      // Agregar CSS) Tj
+T* (      doc.addPage\(\);) Tj
+T* (      yOffset = 10;) Tj
+T* (      doc.setFontSize\(16\);) Tj
+T* (      yOffset = addWrappedText\("CSS:", yOffset + 10\);) Tj
+T* (      doc.setFontSize\(10\);) Tj
+T* (      const styles = Array.from\(document.styleSheets\)) Tj
+T* (        .map\(sheet => {) Tj
+T* (          try {) Tj
+T* (            return Array.from\(sheet.cssRules\).map\(rule => rule.cssText\).join\('\\n'\);) Tj
+T* (          } catch \(e\) {) Tj
+T* (            console.warn\('Cannot access stylesheet rules'\);) Tj
+T* (            return '';) Tj
+T* (          }) Tj
+T* (        }\)) Tj
+T* (        .join\('\\n'\);) Tj
+T* (      yOffset = addWrappedText\(styles, yOffset + 5\);) Tj
+T* () Tj
+T* (      // Agregar JavaScript) Tj
+T* (      doc.addPage\(\);) Tj
+T* (      yOffset = 10;) Tj
+T* (      doc.setFontSize\(16\);) Tj
+T* (      yOffset = addWrappedText\("JavaScript:", yOffset + 10\);) Tj
+T* (      doc.setFontSize\(10\);) Tj
+T* (      const scripts = Array.from\(document.scripts\)) Tj
+T* (        .map\(script => script.innerText\)) Tj
+T* (        .join\('\\n\\n// Next Script\\n\\n'\);) Tj
+T* (      yOffset = addWrappedText\(scripts, yOffset + 5\);) Tj
+T* () Tj
+T* (      // Guardar el PDF) Tj
+T* (      doc.save\("TeVi_Citas_Proyecto.pdf"\);) Tj
+T* (      status.textContent = "¡PDF generado y descargado con éxito!";) Tj
+T* (    }) Tj
+T* (  </script>) Tj
+T* (</body></html>) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 6039
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+42.5196850393700814 785.1970866141732586 Td
+(CSS:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 756.8506299212598378 Td
+(html { min-height: 100%; }) Tj
+T* (.ctxmenu { position: fixed; border: 1px solid rgb\(153, 153, 153\); padding: 2px 0px; box-shadow: rgb\(170, 170, 170\)) Tj
+T* (3px 3px 3px; background: rgb\(255, 255, 255\); margin: 0px; z-index: 9999; overflow-y: auto; font: 15px Verdana,) Tj
+T* (sans-serif; box-sizing: border-box; }) Tj
+T* (.ctxmenu li { margin: 1px 0px; display: block; position: relative; user-select: none; }) Tj
+T* (.ctxmenu li.heading { font-weight: bold; margin-left: -5px; }) Tj
+T* (.ctxmenu li span { display: block; padding: 2px 20px; cursor: default; }) Tj
+T* (.ctxmenu li a { color: inherit; text-decoration: none; }) Tj
+T* (.ctxmenu li.icon { padding-left: 15px; }) Tj
+T* (.ctxmenu img.icon { position: absolute; width: 18px; left: 10px; top: 2px; }) Tj
+T* (.ctxmenu li.disabled { color: rgb\(204, 204, 204\); }) Tj
+T* (.ctxmenu li.divider { border-bottom: 1px solid rgb\(170, 170, 170\); margin: 5px 0px; }) Tj
+T* (.ctxmenu li.interactive:hover { background: rgba\(0, 0, 0, 0.1\); }) Tj
+T* (.ctxmenu li.submenu::after { content: ""; position: absolute; display: block; top: 0px; bottom: 0px; right: 0.4em;) Tj
+T* (margin: auto 0.1rem auto auto; border-right: 1px solid rgb\(0, 0, 0\); border-top: 1px solid rgb\(0, 0, 0\); transform:) Tj
+T* (rotate\(45deg\); width: 0.3rem; height: 0.3rem; }) Tj
+T* (.ctxmenu li.submenu.disabled::after { border-color: rgb\(204, 204, 204\); }) Tj
+T* (@font-face { font-family: "Comic Sans MS"; src: url\("./fonts/comic-sans-regular.woff2"\) format\("woff2"\),) Tj
+T* (url\("./fonts/comic-sans-regular.woff"\) format\("woff"\), local\("Comic Sans"\); font-weight: 400; font-style: normal; }) Tj
+T* (@font-face { font-family: "Comic Sans MS"; src: url\("./fonts/comic-sans-bold.woff2"\) format\("woff2"\),) Tj
+T* (url\("./fonts/comic-sans-bold.woff"\) format\("woff"\), local\("Comic Sans"\); font-weight: 700; font-style: normal; }) Tj
+T* (@font-face { font-family: "Comic Sans MS"; src: url\("./fonts/comic-sans-italic.woff2"\) format\("woff2"\),) Tj
+T* (url\("./fonts/comic-sans-italic.woff"\) format\("woff"\), local\("Comic Sans"\); font-weight: 400; font-style: italic; }) Tj
+T* (@font-face { font-family: "Comic Sans MS"; src: url\("./fonts/comic-sans-bold-italic.woff2"\) format\("woff2"\),) Tj
+T* (url\("./fonts/comic-sans-bold-italic.woff"\) format\("woff"\), local\("Comic Sans"\); font-weight: 700; font-style: italic; }) Tj
+T* (@font-face { font-family: "Comic Sans"; src: url\("./fonts/comic-sans-regular.woff2"\) format\("woff2"\),) Tj
+T* (url\("./fonts/comic-sans-regular.woff"\) format\("woff"\), local\("Comic Sans"\); font-weight: 400; font-style: normal; }) Tj
+T* (@font-face { font-family: "Comic Sans"; src: url\("./fonts/comic-sans-bold.woff2"\) format\("woff2"\),) Tj
+T* (url\("./fonts/comic-sans-bold.woff"\) format\("woff"\), local\("Comic Sans"\); font-weight: 700; font-style: normal; }) Tj
+T* (@font-face { font-family: "Comic Sans"; src: url\("./fonts/comic-sans-italic.woff2"\) format\("woff2"\),) Tj
+T* (url\("./fonts/comic-sans-italic.woff"\) format\("woff"\), local\("Comic Sans"\); font-weight: 400; font-style: italic; }) Tj
+T* (@font-face { font-family: "Comic Sans"; src: url\("./fonts/comic-sans-bold-italic.woff2"\) format\("woff2"\),) Tj
+T* (url\("./fonts/comic-sans-bold-italic.woff"\) format\("woff"\), local\("Comic Sans"\); font-weight: 700; font-style: italic; }) Tj
+T* (.ctxmenu { margin: 0px; padding: 3px 0px; background: rgba\(218, 222, 227, 0.95\); backdrop-filter: blur\(10px\);) Tj
+T* (box-shadow: rgba\(0, 0, 0, 0.35\) 0px 8px 15px; border-radius: 7px; font-family: "Lucida Grande"; font-size: 14px;) Tj
+T* (line-height: 15px; border: 1px solid rgba\(0, 0, 0, 0.125\); z-index: 999999; display: flex; flex-direction: column; }) Tj
+T* (@media \(pointer: coarse\) {) Tj
+T* (  .ctxmenu { flex-direction: column-reverse; font-size: 20px; line-height: 25px; }) Tj
+T* (}) Tj
+T* (.ctxmenu li { display: block; margin: 0px 3px; border-radius: 4px; border-top: 1px solid rgba\(0, 0, 0, 0\);) Tj
+T* (border-bottom: 1px solid rgba\(0, 0, 0, 0\); text-align: left; }) Tj
+T* (.ctxmenu li span { padding: 2px 10px; color: black; }) Tj
+T* (.ctxmenu li::after { vertical-align: 2px; content: attr\(label\); }) Tj
+T* (.ctxmenu li.interactive:hover { background: rgba\(40, 102, 242, 0.98\); color: white; border-top: 1px solid rgb\(90, 130,) Tj
+T* (235\); border-bottom: 1px solid rgb\(23, 88, 231\); }) Tj
+T* (.ctxmenu li.interactive:hover span { color: rgb\(255, 255, 255\); }) Tj
+T* (.ctxmenu li.interactive:hover::after { color: rgb\(255, 255, 255\); }) Tj
+T* (.ctxmenu li.disabled { opacity: 0.95; pointer-events: none; }) Tj
+T* (.ctxmenu li.divider { border: none; height: 1px; background: rgba\(0, 0, 0, 0.1\); margin: 3px 1px 4px; padding: 0px; }) Tj
+T* (@keyframes pulse { ) Tj
+T* (  0% { opacity: 0.7; }) Tj
+T* (  50% { opacity: 0.4; }) Tj
+T* (  100% { opacity: 0.7; }) Tj
+T* (}) Tj
+T* (.websim-loading { animation: 1.5s ease-in-out 0s infinite normal none running pulse; }) Tj
+T* (.websim-focused { outline: rgba\(40, 102, 242, 0.98\) solid 1px; filter: brightness\(1.1\); }) Tj
+T* (body { font-family: Arial, sans-serif; line-height: 1.6; color: rgb\(51, 51, 51\); max-width: 800px; margin: 0px auto;) Tj
+T* (padding: 20px; background-color: rgb\(244, 244, 244\); }) Tj
+T* (h1 { color: rgb\(44, 62, 80\); text-align: center; }) Tj
+T* (.download-section { background-color: rgb\(255, 255, 255\); border-radius: 8px; padding: 20px; margin-top: 20px;) Tj
+T* (box-shadow: rgba\(0, 0, 0, 0.1\) 0px 2px 4px; }) Tj
+T* (button { background-color: rgb\(52, 152, 219\); color: rgb\(255, 255, 255\); border: none; padding: 10px 20px; font-size:) Tj
+T* (16px; border-radius: 4px; cursor: pointer; transition: background-color 0.3s; }) Tj
+T* (button:hover { background-color: rgb\(41, 128, 185\); }) Tj
+T* (#status { margin-top: 20px; font-style: italic; }) Tj
+ET
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 2795
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+42.5196850393700814 785.1970866141732586 Td
+(JavaScript:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 756.8506299212598378 Td
+() Tj
+T* () Tj
+T* (// Next Script) Tj
+T* () Tj
+T* () Tj
+T* () Tj
+T* (// Next Script) Tj
+T* () Tj
+T* () Tj
+T* (    window.jsPDF = window.jspdf.jsPDF;) Tj
+T* () Tj
+T* (    function generatePDF\(\) {) Tj
+T* (      const status = document.getElementById\('status'\);) Tj
+T* (      status.textContent = "Generando PDF...";) Tj
+T* () Tj
+T* (      const doc = new jsPDF\(\);) Tj
+T* (      let yOffset = 10;) Tj
+T* () Tj
+T* (      // Agregar título) Tj
+T* (      doc.setFontSize\(20\);) Tj
+T* (      doc.text\("TeVi Citas - Código del Proyecto", 105, yOffset, null, null, 'center'\);) Tj
+T* (      yOffset += 10;) Tj
+T* () Tj
+T* (      // Función para agregar texto con salto de línea automático) Tj
+T* (      function addWrappedText\(text, y\) {) Tj
+T* (        const textLines = doc.splitTextToSize\(text, 180\);) Tj
+T* (        doc.text\(textLines, 15, y\);) Tj
+T* (        return y + \(textLines.length * 5\);) Tj
+T* (      }) Tj
+T* () Tj
+T* (      // Agregar HTML) Tj
+T* (      doc.setFontSize\(16\);) Tj
+T* (      yOffset = addWrappedText\("HTML:", yOffset + 10\);) Tj
+T* (      doc.setFontSize\(10\);) Tj
+T* (      yOffset = addWrappedText\(document.documentElement.outerHTML, yOffset + 5\);) Tj
+T* () Tj
+T* (      // Agregar CSS) Tj
+T* (      doc.addPage\(\);) Tj
+T* (      yOffset = 10;) Tj
+T* (      doc.setFontSize\(16\);) Tj
+T* (      yOffset = addWrappedText\("CSS:", yOffset + 10\);) Tj
+T* (      doc.setFontSize\(10\);) Tj
+T* (      const styles = Array.from\(document.styleSheets\)) Tj
+T* (        .map\(sheet => {) Tj
+T* (          try {) Tj
+T* (            return Array.from\(sheet.cssRules\).map\(rule => rule.cssText\).join\('\\n'\);) Tj
+T* (          } catch \(e\) {) Tj
+T* (            console.warn\('Cannot access stylesheet rules'\);) Tj
+T* (            return '';) Tj
+T* (          }) Tj
+T* (        }\)) Tj
+T* (        .join\('\\n'\);) Tj
+T* (      yOffset = addWrappedText\(styles, yOffset + 5\);) Tj
+T* () Tj
+T* (      // Agregar JavaScript) Tj
+T* (      doc.addPage\(\);) Tj
+T* (      yOffset = 10;) Tj
+T* (      doc.setFontSize\(16\);) Tj
+T* (      yOffset = addWrappedText\("JavaScript:", yOffset + 10\);) Tj
+T* (      doc.setFontSize\(10\);) Tj
+T* (      const scripts = Array.from\(document.scripts\)) Tj
+T* (        .map\(script => script.innerText\)) Tj
+T* (        .join\('\\n\\n// Next Script\\n\\n'\);) Tj
+T* (      yOffset = addWrappedText\(scripts, yOffset + 5\);) Tj
+T* () Tj
+T* (      // Guardar el PDF) Tj
+T* (      doc.save\("TeVi_Citas_Proyecto.pdf"\);) Tj
+T* (      status.textContent = "¡PDF generado y descargado con éxito!";) Tj
+T* (    }) Tj
+T* (  ) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R ]
+/Count 3
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+19 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+21 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+22 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 9 0 R
+/F2 10 0 R
+/F3 11 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+/F7 15 0 R
+/F8 16 0 R
+/F9 17 0 R
+/F10 18 0 R
+/F11 19 0 R
+/F12 20 0 R
+/F13 21 0 R
+/F14 22 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+23 0 obj
+<<
+/Producer (jsPDF 2.5.1)
+/CreationDate (D:20240812002632-03'00')
+>>
+endobj
+24 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 25
+0000000000 65535 f 
+0000015736 00000 n 
+0000017569 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000006524 00000 n 
+0000006661 00000 n 
+0000012752 00000 n 
+0000012889 00000 n 
+0000015805 00000 n 
+0000015930 00000 n 
+0000016061 00000 n 
+0000016195 00000 n 
+0000016333 00000 n 
+0000016457 00000 n 
+0000016586 00000 n 
+0000016718 00000 n 
+0000016854 00000 n 
+0000016982 00000 n 
+0000017109 00000 n 
+0000017238 00000 n 
+0000017371 00000 n 
+0000017473 00000 n 
+0000017821 00000 n 
+0000017907 00000 n 
+trailer
+<<
+/Size 25
+/Root 24 0 R
+/Info 23 0 R
+/ID [ <61ADC175FA7353D2958033ACA800A5A1> <61ADC175FA7353D2958033ACA800A5A1> ]
+>>
+startxref
+18011
+%%EOF
